@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    <title> Fruitealicious - Menu </title>
+
+</head>
+
+<body>
+
+    <div class = "flex">
+        <p class="font-bold text-purple-400 w-1/3 m-4"><a href="index.html">Home</a></p>  
+        <p class="font-bold text-blue-400 w-1/3 text-center uppercase m-4"> Fruitealicious </p>
+        <p class="font-bold text-purple-400 w-1/3 text-right m-4"><a href="page 2 - about.html">About Us</a></p>
+    </div>
+
+    <h1 class= "font-bold text-center uppercase p-4 text-4xl text-pink-400"> Menu </h1>
+
+    <ol class = "list-decimal list-inside text-center">
+        <li class = "font-bold text-yellow-500 text-xl"> Choose your drink </li>
+            <ul class = "list-disc list-inside m-2" >
+                <li >Black Tea - $3 </li>
+                <li >Smoothie - $4 </li>
+                <li > Slush - $4 </li>
+            </ul>
+
+        <li class = "font-bold text-yellow-500 text-xl"> Choose your flavor</li>
+            <ul class = "list-disc list-inside m-2">
+                <li>Strawberry</li>
+                <li>Mango</li>
+                <li>Lychee</li>
+                <li>Passionfruit</li>
+            </ul>
+            
+        <li class = "font-bold text-yellow-500 text-xl"> Choose your toppings</li>
+            <ul class = "list-disc list-inside m-2">
+                <li>Boba</li>
+                <li>Jelly</li>
+                <li>Yogurt</li>
+            </ul>
+
+  
+    
+    
+    </ol>
+
+    <div class="m-8">
+        <h1 class="text-3xl font-bold text-center">Ready to order?</h1>
+        
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Name</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+  
+            <label class="block mt-4 font-bold" for="email">Email</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="email" name="email">
+      
+            <label class="block mt-4 font-bold" for="order">What would you like to order?</label>
+            <textarea rows="6" class="p-2 w-full border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" id="order" name="order"></textarea>
+      
+            <button class="block mt-4 text-white bg-blue-400 rounded px-4 py-2">Submit order</button>
+      </form>
+</div>
+
+
+   
+
+
+
+
+
+</body>
+
+</html>
